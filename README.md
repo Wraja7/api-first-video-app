@@ -87,7 +87,7 @@ React Native App → Flask API → MongoDB
 ---
 
 ### Video System
-Video documents stored as:
+Video documents stored as :
 ```json
 {
   "title": "How Startups Fail",
@@ -96,6 +96,7 @@ Video documents stored as:
   "thumbnail_url": "...",
   "is_active": true
 }
+```
 Method	Endpoint	Description
 GET	/dashboard	Returns 2 active videos
 GET	/video/<id>/stream	Returns playable stream
@@ -141,6 +142,7 @@ thumbnail_url
 
 is_active
 
+
 ⚙️ Setup Instructions
 Backend
 cd backend
@@ -168,3 +170,4 @@ AI outputs were reviewed, corrected, and adapted manually where incorrect.
 Author
 
 Raja Verma
+
