@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Node / React Native
+node_modules/
+.expo/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
