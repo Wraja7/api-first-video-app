@@ -159,15 +159,23 @@ npx expo start
 Create .env using .env.example
 
 🤖 AI Usage Disclosure
+
+AI assistance (ChatGPT) was used selectively during development.
+
 AI was used to:
 
-Speed up boilerplate
+Speed up initial boilerplate and project structure
 
-Debug integration issues
+Assist with debugging integration issues (API ↔ mobile ↔ database)
 
-AI outputs were reviewed, corrected, and adapted manually where incorrect.
+Sanity-check architectural decisions during development
+
+All core implementation, debugging, refactoring, and final integration were done manually.
+No web builders, low-code tools, or generated templates were used.
+Frontend–backend integration, JWT flow, MongoDB models, and video abstraction logic were implemented and fixed by me.
+
 
 Author
-
 Raja Verma
+
 
